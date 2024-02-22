@@ -1,0 +1,129 @@
+body {
+  font-family: var(--lexen_deca), sans-serif;
+}
+
+.aboutUsMain {
+  background: #191b1f;
+}
+
+.aboutUsMain .aboutUsheader {
+  align-self: stretch;
+  height: 480px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+  position: relative;
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  /* -moz-background-size: cover; */
+  -webkit-background-size: cover;
+  /* -o-background-size: cover; */
+  background-position: inherit;
+}
+
+.aboutUsMain .aboutUsheader .aboutImg {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  inset: 0px;
+  object-fit: cover;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+  color: transparent;
+  /* height: 480px; */
+}
+
+.aboutUsMain .aboutUsheader .aboutContent {
+  align-self: stretch;
+  padding: 32px 64px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 64px;
+  display: inline-flex;
+  margin-top: 60px;
+  z-index: 1;
+}
+
+.aboutUsMain .aboutUsheader .aboutContent .aboutheading {
+  flex: 1 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 32px;
+  display: inline-flex;
+}
+
+.aboutRoute {
+  align-self: stretch;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  display: inline-flex;
+}
+
+.nolan {
+  color: hsla(0, 0%, 100%, 0.44);
+  font-size: 15px;
+  font-family: var(--lexen_deca), sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.03px;
+  overflow-wrap: break-word;
+}
+
+.about {
+  color: hsla(0, 0%, 100%, 0.96);
+  font-size: 15px;
+  font-family: var(--lexen_deca), sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.03px;
+  overflow-wrap: break-word;
+}
+
+.aboutUs {
+  align-self: stretch;
+  color: hsla(0, 0%, 100%, 0.96);
+  font-size: 64px;
+  font-family: var(--lexen_deca), sans-serif;
+  font-weight: 700;
+  overflow-wrap: break-word;
+}
+
+.aboutBlog {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.aboutPadding {
+  padding: 0 176px;
+  border-radius: 16px;
+  margin-top: -170px;
+  margin-bottom: 20px;
+}
+
+.aboutBlogText h3 {
+  color: #f5f2f0;
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 24px;
+  margin-bottom: 8px;
+  font-family: var(--lexen_deca), sans-serif;
+  word-break: break-word;
+}
+
+.aboutBlogText p {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 32px;
+  color: #f5f2f0;
+}
+
+
+.aboutBlogText Link{
+    color: #057ffa;
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+}

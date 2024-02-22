@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+  /* background-color: #2b2d33; */
+}
+
+.testiContainer {
+  width: 100%;
+  /* background-color: #171616; */
+  background: #191b1f;
+  height: 100%;
+  padding: 64px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 32px;
+  display: inline-flex;
+}
+
+.testiContainer .testiTag {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  display: flex;
+}
+
+.testiContainer .testiTag .testiHeading {
+  align-self: stretch;
+  text-align: center;
+  color: hsla(0, 0%, 100%, 0.96);
+  font-size: 40px;
+  font-family: var(--lexen_deca), sans-serif;
+  font-weight: 700;
+  overflow-wrap: break-word;
+}
+
+.testiContainer .testiTag .testiSubHeading {
+  align-self: stretch;
+  text-align: center;
+  color: hsla(0, 0%, 100%, 0.44);
+  font-size: 24px;
+  font-family: var(--lexen_deca), sans-serif;
+  font-weight: 300;
+  overflow-wrap: break-word;
+}
+
+.testiContainer .testiparaContent {
+  justify-content: center;
+  gap: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.testiparaContent .paraContent {
+  flex: 0.33 1;
+  padding: 24px;
+  background: #2b2d33;
+  border-radius: 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  min-height: 168px;
+  display: flex;
+}
+
+.testiContainer .testiparaContent .paraContent .photo {
+  padding: 12px;
+  border-radius: 500px;
+  border: 1px solid hsla(0, 0%, 100%, 0.08);
+  justify-content: center;
+  align-items: center;
+  align-items: flex-start;
+  gap: 4px;
+  display: inline-flex;
+}
+
+.testiContainer .testiparaContent .paraContent .photo img {
+  object-fit: cover;
+  border-radius: 500px;
+  width: 64px;
+  aspect-ratio: auto 64 / 64;
+  height: 64px;
+  color: transparent;
+}
+
+.personDetails {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  display: flex;
+}
+
+.personDetails .name {
+  text-align: center;
+  color: hsla(0, 0%, 100%, 0.96);
+  font-size: 24px;
+  font-family: var(--lexen_deca), sans-serif;
+  font-weight: 500;
+  overflow-wrap: break-word;
+}
+
+.personDetails .details {
+  text-align: center;
+  color: hsla(0, 0%, 100%, 0.44);
+  font-size: 12px;
+  font-family: var(--lexen_deca), sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.24px;
+  overflow-wrap: break-word;
+}
+
+.paraText {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 4px;
+  display: flex;
+}
+
+.paraText .text {
+  text-align: justify;
+  color: hsla(0, 0%, 100%, 0.96);
+  font-size: 16px;
+  font-family: var(--lexen_deca), sans-serif;
+  font-weight: 300;
+  overflow-wrap: break-word;
+  line-height: 1.5;
+}
+
+.paraIcon{
+  display: flex;
+    flex-direction: row;
+    gap: 5px;
+}

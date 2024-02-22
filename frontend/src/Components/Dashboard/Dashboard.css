@@ -1,0 +1,122 @@
+.dashboard {
+    min-height: 680px;
+    height: 100%;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* -moz-background-size: cover;
+      -webkit-background-size: cover;
+      -o-background-size: cover; */
+  }
+
+  .dashboard img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    margin: 0 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    object-fit: cover;
+    color: transparent;
+  }
+
+  .dashContainer {
+    padding: 25px;
+    position: relative;
+  }
+  .folder{
+    padding: 15px;
+    display: flex; 
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .folderItem{
+display: flex; 
+justify-content: center;
+align-items: center;
+gap: 8px;
+margin: 10px;
+color: aliceblue;
+background-color: black;
+border-radius: 50px;
+cursor: pointer;
+width: 120px;
+height: 26px;
+font-family: var(--lexen_deca),sans-serif;
+/* background-color: red; */
+  }
+
+
+.dashCard{
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  /* background-color: gray; */
+  width: fit-content;
+
+  padding: 10px;
+  margin: 40px;
+  height: 100px;
+}
+
+.dashCard .card{
+  background-color: #fff;
+  margin: 10px;
+  border-radius: 40px;
+  /* margin: 10px; */
+  /* padding: 30px; */
+}
+
+
+.card .cardLogo{
+  background-color: orange;
+  width: 32px;
+  height: 32px;
+  /* border: 500px ; */
+  border-radius: 40px;
+  position: relative;
+}
+
+.cardLogoImg{
+  align-content: center;
+  margin-top: 8px;
+  margin-left: 7px;
+  font-weight: 700px;
+}
+
+.cardContent{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.cardHeading{
+  font-weight: 800;
+  font-size: 20px;
+  align-self: stretch;
+  /* color: rgba(26,29,36,.72); */
+}
+
+.cardText{
+  color: rgba(26,29,36,.72);
+  font-size: 15px;
+  font-weight: 400;
+}
+.cardbutton{
+  display: flex;
+  background-color: hsla(20, 3%, 18%, 0.72);
+  align-items: center;
+  justify-content: center;
+  width: 110px;
+  height: 40px;
+  border-radius: 40px;
+  gap: 2px;
+  cursor: pointer;
+}
+
+

@@ -1,0 +1,75 @@
+.createPost{
+    max-width: 500px;
+    margin: 10px auto;
+    border: 1px solid rgb(173, 173, 173);
+    border-radius: 5px;
+    z-index: 1;
+    position: relative;
+    backdrop-filter: blur(4px);
+}
+
+.createMainContainer{
+    height: 100%;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* -moz-background-size: cover; */
+  /* -webkit-background-size: cover; */
+  /* -o-background-size: cover; */
+  background-position: 50%;
+}
+
+.createMainContainer .ScriptImage{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    /* inset: 0px; */
+    object-fit: cover;
+    object-position: center top;
+    color: transparent;
+    opacity: 0.7;
+    
+}
+
+.main-div{
+    border-top: 1px solid rgb(173, 173, 173) ;
+    padding: 10px;
+    /* margin: 10px; */
+}
+.post-header{
+    display: flex;
+}
+
+#post-btn{
+    border: none;
+    color: #339ce3;
+    background:none;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.details{
+    border-top: 1px solid rgb(173, 173, 173) ;
+}
+
+textarea{
+    width: 90%;
+    border: none;
+    outline: none;
+}
+
+#output{
+    width: 300px;
+    border: none;
+    outline: none;
+    margin-top: 5px;
+    
+}
+
+#captionImg{
+    color: transparent;
+    object-fit: cover;
+    width: 10%;
+    height: 56%;
+    border-radius: 50px;
+}

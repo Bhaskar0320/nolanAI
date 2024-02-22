@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+
+.scriptContainer {
+  color: #f5f2f0;
+  margin: 0;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-image: url(../../Image/background1.webp);
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-position: 50%;
+}
+
+.scriptContainer .scriptContent {
+  padding: 64px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.scriptContainer .scriptContent .scriptText {
+  position: relative;
+  width: 90%;
+  height: 315px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50%;
+  margin-left: 8%;
+}
+
+.scriptContainer .scriptContent .scriptText h2 {
+  font-size: 32px;
+  font-weight: 200;
+  color: hsla(0, 0%, 100%, 0.96);
+  font-family: var(--lexen_deca), sans-serif;
+  margin: 0 !important;
+}
+
+.scriptContainer .scriptContent .scriptText h3 {
+  font-size: 64px;
+  font-weight: 700;
+  color: hsla(0, 0%, 100%, 0.96);
+  font-family: var(--lexen_deca), sans-serif;
+  line-height: 1;
+  margin: 0 !important;
+}
+
+.scriptContainer .scriptContent .scriptText p {
+  color: #fff;
+  font-size: 17px;
+  font-weight: 600;
+  word-break: break-word;
+  font-family: var(--lexen_deca), sans-serif;
+}
+
+.scriptContainer .scriptContent .scriptText .btn1 {
+  /* color: hsla(0, 0%, 100%, 0.96); */
+  background-color: #1d6ee3;
+  border-color: #1d6ee3;
+  flex: 1 1;
+  text-align: center;
+  /* color: hsla(0, 0%, 100%, 0.5); */
+  color: white;
+  font-size: 16px;
+  font-family: var(--lexen_deca), sans-serif;
+  font-weight: 600;
+  overflow-wrap: break-word;
+  /* align-self: stretch; */
+  padding: 22px 28px;
+  border-radius: 96px;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+}
+
+.scriptContainer .scriptContent .scriptText .btn1 {
+  flex: 1 1;
+  height: 24px;
+  padding-left: 12px;
+  padding-right: 12px;
+  justify-content: center;
+  align-items: center;
+
+  gap: 4px;
+  cursor: pointer;
+  display: flex;
+  word-wrap: break-word;
+}
+
+.scriptContainer .scriptContent .scriptText .btn1 .icon {
+  font-size: 24px;
+}
+
+.scriptContainer .scriptContent .scriptVdo {
+  position: relative;
+  width: 90%;
+  height: 315px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50%;
+  cursor: pointer;
+  margin-left: 8%;
+}
+
+img{
+    color: transparent;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
